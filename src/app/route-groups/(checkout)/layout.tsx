@@ -1,4 +1,3 @@
-import { getCategories } from "@/api/categories/getCategories";
 import { Boundary } from "@/ui/boundary";
 import { TabNavItem } from "@/ui/tab-nav-item";
 import React from "react";
@@ -8,8 +7,6 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  const categories = await getCategories();
-
   return (
     <Boundary
       labels={["checkout layout"]}
