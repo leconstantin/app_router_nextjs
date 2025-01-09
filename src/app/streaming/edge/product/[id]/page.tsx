@@ -1,10 +1,10 @@
-import { Ping } from "#/ui/ping";
 import {
   RecommendedProducts,
   RecommendedProductsSkeleton,
 } from "@/app/streaming/_components/recommended-products";
 import { Reviews, ReviewsSkeleton } from "@/app/streaming/_components/reviews";
 import { SingleProduct } from "@/app/streaming/_components/single-product";
+import { Ping } from "@/ui/ping";
 import { Suspense } from "react";
 
 export const runtime = "edge";

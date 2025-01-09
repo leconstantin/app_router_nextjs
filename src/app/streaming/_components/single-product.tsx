@@ -1,8 +1,11 @@
-import { Pricing } from "#/app/streaming/_components/pricing";
-import type { Product } from "#/app/api/products/product";
-import { ProductRating } from "#/ui/product-rating";
+// import { Pricing } from "#/app/streaming/_components/pricing";
+// import type { Product } from "#/app/api/products/product";
+// import { ProductRating } from "#/ui/product-rating";
+import type { Product } from "@/api/products/product";
+import { ProductRating } from "@/ui/products/product-rating";
 import { cookies } from "next/headers";
 import Image from "next/image";
+import { Pricing } from "./pricing";
 
 export const SingleProduct = async ({ data }: { data: Promise<Response> }) => {
   const product = (await data.then((res) => res.json())) as Product;
