@@ -1,10 +1,9 @@
+import { getCategories } from "@/api/categories/getCategories";
+import { ClickCounter } from "@/ui/click-counter";
+import { TabGroup } from "@/ui/tab/tab-group";
+import React from "react";
 
-import { getCategories } from '@/api/categories/getCategories';
-import { ClickCounter } from '@/ui/click-counter';
-import { TabGroup } from '@/ui/tab-group';
-import React from 'react';
-
-const title = 'Error Handling';
+const title = "Error Handling";
 
 export const metadata = {
   title,
@@ -28,7 +27,7 @@ export default async function Layout({
           path="/error-handling"
           items={[
             {
-              text: 'Home',
+              text: "Home",
             },
             ...categories.map((x) => ({
               text: x.name,

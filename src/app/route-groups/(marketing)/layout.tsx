@@ -1,7 +1,7 @@
 import { getCategories } from "@/api/categories/getCategories";
 import { Boundary } from "@/ui/boundary";
 import { ClickCounter } from "@/ui/click-counter";
-import { TabGroup } from "@/ui/tab-group";
+import { TabGroup } from "@/ui/tab/tab-group";
 import React from "react";
 
 export default async function Layout({

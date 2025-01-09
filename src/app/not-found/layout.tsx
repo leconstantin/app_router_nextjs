@@ -1,6 +1,6 @@
 import { getCategories } from "@/api/categories/getCategories";
 import { ClickCounter } from "@/ui/click-counter";
-import { TabGroup } from "@/ui/tab-group";
+import { TabGroup } from "@/ui/tab/tab-group";
 import React from "react";
 
 const title = "Not Found";

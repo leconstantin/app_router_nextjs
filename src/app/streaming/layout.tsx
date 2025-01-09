@@ -1,4 +1,4 @@
-import { TabGroup } from "@/ui/tab-group";
+import { TabGroup } from "@/ui/tab/tab-group";
 import React from "react";
 
 const title = "Streaming";

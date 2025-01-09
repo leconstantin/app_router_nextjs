@@ -1,6 +1,6 @@
 import { getCategories, getCategory } from "@/api/categories/getCategories";
 import { ClickCounter } from "@/ui/click-counter";
-import { TabGroup } from "@/ui/tab-group";
+import { TabGroup } from "@/ui/tab/tab-group";
 
 export default async function Layout(props: {
   children: React.ReactNode;

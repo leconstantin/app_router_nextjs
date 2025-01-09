@@ -13,6 +13,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "dinero.js": "^2.0.0-alpha.10",
     "next": "15.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
