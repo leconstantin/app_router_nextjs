@@ -13,6 +13,9 @@ export default async function Layout(props: {
   const category = await getCategory({ slug: params.categorySlug });
   const categories = await getCategories({ parent: params.categorySlug });
 
+  // console.log(category);
+  // console.log(categories);
+
   return (
     <div className="space-y-9">
       <div className="flex justify-between">
