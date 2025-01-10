@@ -15,7 +15,7 @@ export function Header() {
           </div>
         </Link>
 
-        <div className="relative flex-1">
+        <div className="relative flex">
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
             <HiMagnifyingGlass className="h-5 w-5 text-gray-300" />
           </div>
