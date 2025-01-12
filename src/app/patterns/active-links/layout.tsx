@@ -15,7 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between gap-x-3 py-3">
         <NavLinks links={links} />
-        <Link href="/active-links/profile">
+        <Link href="/patterns/active-links/profile">
           <Image
             src="/prince-akachi-LWkFHEGpleE-unsplash.jpg"
             className="rounded-full"
